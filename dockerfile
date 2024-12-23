@@ -1,5 +1,5 @@
-ARG PYTHON_VERSION=3.14-rc-slim-bookworm
-# ARG PYTHON_VERSION=3.12
+# ARG PYTHON_VERSION=3.14-rc-slim-bookworm
+ARG PYTHON_VERSION=3.12
 
 FROM python:${PYTHON_VERSION} AS installerimage
 
