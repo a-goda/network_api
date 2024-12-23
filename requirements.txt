@@ -1,0 +1,6 @@
+fastapi[standard]==0.115.6
+pydantic==2.10.4
+ncclient==0.6.16
+Netmiko==4.5.0
+pyATS==24.11
+genie==24.11
