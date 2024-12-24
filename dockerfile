@@ -1,8 +1,9 @@
-# ARG PYTHON_VERSION=3.14-rc-slim-bookworm
+# ARG PYTHON_VERSION=3.14.0a3-slim
 ARG PYTHON_VERSION=3.12
 
 FROM python:${PYTHON_VERSION} AS installerimage
-
+LABEL author="Ahmed Gadallah" \
+    version="v1.0"
 
 
 RUN mkdir -p /app
